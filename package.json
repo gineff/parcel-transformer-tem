@@ -1,6 +1,6 @@
 {
-  "name": "parcel-transformer-tmpl",
-  "version": "1.0.0",
+  "name": "parcel-transformer-tem",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "@gineff/parcel-transformer-tmpl"
+    "url": "https://github.com/gineff/parcel-transformer-tem"
   },
   "author": "gineff",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": ">= 12.0.0",
+    "parcel": "^2.7.0"
+  },
+  "devDependencies": {
+    "@parcel/plugin": "^2.7.0"
+  }
 }
